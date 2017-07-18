@@ -74,7 +74,6 @@
     return nil;
 }
 
-
 - (UICollectionView *)collectionView {
     
     if(!_collectionView) {
@@ -101,7 +100,7 @@
         
         GroupModel *blocksModel = [[GroupModel alloc] initWithType:GoodsTypeBlocks sectionTitle:nil goods:[goodsArray subarrayWithRange:NSMakeRange(0, 8)]];
         
-        GroupModel *singleModel = [[GroupModel alloc] initWithType:GoodsTypeSingle sectionTitle:nil goods:[goodsArray subarrayWithRange:NSMakeRange(0, 5)]];
+        GroupModel *singleModel = [[GroupModel alloc] initWithType:GoodsTypeSingle sectionTitle:nil goods:[goodsArray subarrayWithRange:NSMakeRange(0, 3)]];
         singleModel.type = GoodsTypeSingle;
         
         GroupModel *multipleModel = [[GroupModel alloc] initWithType:GoodsTypeMultiple sectionTitle:nil goods:[goodsArray subarrayWithRange:NSMakeRange(0, 5)]];
