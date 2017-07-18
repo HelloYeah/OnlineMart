@@ -1,6 +1,6 @@
 # OnlineMart
 电商首页 UI框架 
-只用一个collectionView 实现的。不含嵌套，轮播图是 
+用collectionView实现的。
 ![1.gif](http://upload-images.jianshu.io/upload_images/1338042-dd49a97fd2f9c482.gif?imageMogr2/auto-orient/strip)
 
 
